@@ -1,0 +1,8 @@
+wget -v
+-O support/f2.level5.record
+--user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+--load-cookies cookies.txt
+--header="Referer: http://158.69.76.135/level5.php"
+--header="Accept-Language: en-US,en;q=0.5"
+--post-data "id=790&key=42a4001731bb724bf7e28f1423159bf9d8f69776&captcha=8ee09a71&holdthedoor=Submit+Query"
+http://158.69.76.135/level5.php

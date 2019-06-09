@@ -1,0 +1,20 @@
+#!/bin/bash
+#See you later hacker! [0]
+#author @fesurocuts 790@holbertonschool.com fesusrocuts@gmail.com
+#version 1.0.0.0
+#date 08-06-2019
+#run this code as root user
+#description: the technique is attack use the lib curl and wget from Linux Ubuntu
+#try hack poll #2 1/2
+echo "get session #step1"
+cat get-session | tr "\n" " " | sh
+echo "download image #step2"
+cat get-image | tr "\n" " " | sh
+ls support/image* | wc -l | awk '{if ($0>0) print "mv support/image.png support/image."$0".png"}' | sh
+ls support/f1.level5.* | wc -l | awk '{if ($0>0) print "mv support/f1.level5.record support/f1.level5.record."$0}' | sh
+
+#get OCR image ex. support/image.0.png
+ls support/image* | wc -l | awk '{print "support/image."$0".png"}'
+>>> send API
+sudo apt-get install tesseract-ocr
+sudo apt install imagemagick

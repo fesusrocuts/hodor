@@ -1,0 +1,15 @@
+curl 
+-v --cookie 'PHPSESSID=910g0b5h17d73nnha1mcm37vu7;HoldTheDoor=45b8f571a61e0a20ccd52a58c1916ea7d85452e3' 
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0' 
+-H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' 
+-H 'Accept-Language: en-US,en;q=0.5' 
+-H 'Content-Type: application/x-www-form-urlencoded' 
+-H 'Content-Length: 93' 
+-H 'DNT: 0' 
+-H 'Connection: keep-alive' 
+-H 'Referer: https://158.69.76.135/level5.php' 
+-H 'Cookie: PHPSESSID=910g0b5h17d73nnha1mcm37vu7; HoldTheDoor=45b8f571a61e0a20ccd52a58c1916ea7d85452e3' 
+-H 'Upgrade-Insecure-Requests: 0' 
+-H 'Host: 158.69.76.135' 
+-d 'id=790&captcha=00023721&key=45b8f571a61e0a20ccd52a58c1916ea7d85452e3&holdthedoor=Submit+Query' 
+http://158.69.76.135/level5.php
