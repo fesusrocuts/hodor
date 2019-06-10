@@ -21,8 +21,9 @@ do
     echo "run pull command"
     ./pull
     echo "run push command"
-    #./push
+    ./push
     echo "close connection vpn, kill process ..."
     killall openvpn
     echo "Good bye!"
+    echo "...."
 done
