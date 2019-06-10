@@ -1,0 +1,381 @@
+
+<h1>
+Hold the Door challenge - Level 2
+</h1>
+
+<a href="https://twitter.com/JohnSerrano2/status/735185741546803205" target="_blank">
+<img border="0" src="hodor_level2.png" width="500" />
+</a>
+
+<p>
+Vote 1024 times for your Holberton School id (i.e. 28 if you are Dora).<br />
+<i>We only take votes from Windows users.</i>
+</p>
+
+<h2>
+Who do you want to vote for?
+</h2>
+
+<form method="post">
+<input type="text" name="id" />
+<input type="submit" name="holdthedoor" />
+<input type="hidden" name="key" value="ab5ee34959c95393ebe969558a55de5cc026b8ed" />
+</form>
+
+<h2>
+Results
+</h2>
+
+    <table border="1">
+<tr>
+    <td>id</td><td># votes</td>
+</tr>
+<tr>
+    <td>
+1    </td>
+    <td>
+367    </td>    
+</tr>
+<tr>
+    <td>
+2    </td>
+    <td>
+36    </td>    
+</tr>
+<tr>
+    <td>
+3    </td>
+    <td>
+50    </td>    
+</tr>
+<tr>
+    <td>
+10    </td>
+    <td>
+10    </td>    
+</tr>
+<tr>
+    <td>
+13    </td>
+    <td>
+1033    </td>    
+</tr>
+<tr>
+    <td>
+14    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+16    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+17    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+18    </td>
+    <td>
+1063    </td>    
+</tr>
+<tr>
+    <td>
+20    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+21    </td>
+    <td>
+745    </td>    
+</tr>
+<tr>
+    <td>
+22    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+23    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+24    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+27    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+28    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+29    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+30    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+33    </td>
+    <td>
+32    </td>    
+</tr>
+<tr>
+    <td>
+56    </td>
+    <td>
+10    </td>    
+</tr>
+<tr>
+    <td>
+110    </td>
+    <td>
+1219    </td>    
+</tr>
+<tr>
+    <td>
+139    </td>
+    <td>
+1245    </td>    
+</tr>
+<tr>
+    <td>
+144    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+244    </td>
+    <td>
+1033    </td>    
+</tr>
+<tr>
+    <td>
+247    </td>
+    <td>
+1025    </td>    
+</tr>
+<tr>
+    <td>
+250    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+264    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+332    </td>
+    <td>
+1096    </td>    
+</tr>
+<tr>
+    <td>
+350    </td>
+    <td>
+1188    </td>    
+</tr>
+<tr>
+    <td>
+354    </td>
+    <td>
+1039    </td>    
+</tr>
+<tr>
+    <td>
+355    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+375    </td>
+    <td>
+1093    </td>    
+</tr>
+<tr>
+    <td>
+390    </td>
+    <td>
+1069    </td>    
+</tr>
+<tr>
+    <td>
+399    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+496    </td>
+    <td>
+1026    </td>    
+</tr>
+<tr>
+    <td>
+515    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+531    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+535    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+538    </td>
+    <td>
+18    </td>    
+</tr>
+<tr>
+    <td>
+541    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+650    </td>
+    <td>
+1195    </td>    
+</tr>
+<tr>
+    <td>
+651    </td>
+    <td>
+1028    </td>    
+</tr>
+<tr>
+    <td>
+652    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+654    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+668    </td>
+    <td>
+265    </td>    
+</tr>
+<tr>
+    <td>
+675    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+679    </td>
+    <td>
+1029    </td>    
+</tr>
+<tr>
+    <td>
+701    </td>
+    <td>
+1046    </td>    
+</tr>
+<tr>
+    <td>
+730    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+733    </td>
+    <td>
+1025    </td>    
+</tr>
+<tr>
+    <td>
+766    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+790    </td>
+    <td>
+759    </td>    
+</tr>
+<tr>
+    <td>
+2525    </td>
+    <td>
+11    </td>    
+</tr>
+<tr>
+    <td>
+6969    </td>
+    <td>
+1025    </td>    
+</tr>
+<tr>
+    <td>
+8888    </td>
+    <td>
+20    </td>    
+</tr>
+<tr>
+    <td>
+12345    </td>
+    <td>
+111    </td>    
+</tr>
+<tr>
+    <td>
+41291    </td>
+    <td>
+1    </td>    
+</tr>
+<tr>
+    <td>
+478482    </td>
+    <td>
+1    </td>    
+</tr>
+</table>

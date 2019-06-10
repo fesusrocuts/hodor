@@ -1,0 +1,6 @@
+wget
+-O support/f1.level1.record
+--user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+--keep-session-cookies
+--save-cookies cookies.txt
+http://158.69.76.135/level1.php

@@ -1,9 +1,9 @@
 wget -v
 -O support/f2.level2.record
---user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+--user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
 --load-cookies cookies.txt
 --header="Cache-Control: no-cache"
 --header="Referer: http://158.69.76.135/level2.php"
 --header="Accept-Language: en-US,en;q=0.5"
---post-data "id=790&key=05769283a9b1bcbe8996d450fbdb709df904b719&holdthedoor=Submit+Query"
+--post-data "id=790&key=7c75d72444d9dc9747d5edf32b4344d769300dd1&holdthedoor=Submit+Query"
 http://158.69.76.135/level2.php
