@@ -14,6 +14,8 @@ do
     # create file text with user and password
     # auth-user-pass pwd.txt
     # run the follow line to run under vpn connection, this PID is in second plane
+    # is necessary connect a poll of connections to avoid filter through IP,
+    # the next example is only vpn 51.68.152.226
     echo "run vpn background connection #1"
     openvpn --config ../openvpn/VPNBook.com-OpenVPN-PL226/vpnbook-pl226-tcp80.ovpn &
     echo "sleep while create vpn connnection ... #1"
