@@ -1,0 +1,22 @@
+#!/bin/bash
+#See you later hacker! [0]
+#author @fesurocuts 790@holbertonschool.com fesusrocuts@gmail.com
+#version 1.0.0.0
+#date 08-06-2019
+#run this code as root user
+#description: the technique is attack use the lib curl and wget from Linux Ubuntu
+#use OCR to convert png to txt, for is use:
+#sudo apt-get install tesseract-ocr
+#sudo apt install imagemagick
+#try hack poll #2 2/2
+echo "autorun..."
+for i in {1..1024}
+do
+    echo "run pull command"
+    ./pull
+    echo "run push command"
+    ./push
+    echo "wait 1 second..."
+    sleep 1s
+    echo "...."
+done

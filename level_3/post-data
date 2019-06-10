@@ -1,0 +1,9 @@
+wget -v
+-O support/f2.level3.record
+--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+--load-cookies cookies.txt
+--header="Cache-Control: no-cache"
+--header="Referer: http://158.69.76.135/level3.php"
+--header="Accept-Language: en-US,en;q=0.5"
+--post-data "id=790&key=8927ebb473f556558b6b05e4a4513815dd4ec25d&captcha=8927ebb473f556558b6b05e4a4513815dd4ec25d&holdthedoor=Submit+Query"
+http://158.69.76.135/level3.php
