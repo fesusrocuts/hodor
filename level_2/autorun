@@ -1,0 +1,31 @@
+#!/bin/bash
+#See you later hacker! [0]
+#author @fesurocuts 790@holbertonschool.com fesusrocuts@gmail.com
+#version 1.0.0.0
+#date 08-06-2019
+#run this code as root user
+#description: the technique is attack use the lib curl and wget from Linux Ubuntu
+#try hack poll #2 2/2
+echo "autorun..."
+for i in {1..1024}
+do
+    # use openvpn and launch the command and authrization with file pwd.txt
+    # ex. pwd.txt >>
+    # create file text with user and password
+    # auth-user-pass pwd.txt
+    # run the follow line to run under vpn connection, this PID is in second plane
+    # is necessary connect a poll of connections to avoid filter through IP,
+    # the next example is only vpn 51.68.152.226
+    #echo "run vpn background connection #1"
+    #openvpn --config ../openvpn/VPNBook.com-OpenVPN-PL226/vpnbook-pl226-tcp80.ovpn &
+    #echo "sleep while create vpn connnection ... #1"
+    #sleep 60s
+    echo "run pull command"
+    ./pull
+    echo "run push command"
+    ./push
+    echo "close connection vpn, kill process ..."
+    #killall openvpn
+    echo "Good bye!"
+    echo "...."
+done

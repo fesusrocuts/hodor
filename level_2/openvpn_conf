@@ -1,0 +1,5 @@
+apt-get install openvpn
+https://www.vpnbook.com/
+Username: vpnbook
+Password: 855wzak
+openvpn --config ./vpnbook-pl226-tcp80.ovpn
