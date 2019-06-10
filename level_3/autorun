@@ -16,7 +16,7 @@ do
     ./pull
     echo "run push command"
     ./push
-    echo "wait 1 second..."
-    sleep 1s
+    echo "wait 60 second..."
+    sleep 60s
     echo "...."
 done

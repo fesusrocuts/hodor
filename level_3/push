@@ -7,9 +7,9 @@
 #description: the technique is attack use the lib curl and wget from Linux Ubuntu
 #try hack poll #2 2/2
 echo "get key #step2"
-captcha=$(cat out.txt)
-cat cookies.txt | grep HoldTheDoor | cut -f7 | awk '{print "--post-data \"id=790&key="$0"&captcha="$captcha"&holdthedoor=Submit+Query\""}' > post
-cat prev-data | head -n 7 > post-data
+captcha=$(cat out.txt | head -n 1)
+cat cookies.txt | grep HoldTheDoor | cut -f7 | awk '{print "--post-data \"id=790&key="$0"&captcha="'$captcha'"&holdthedoor=Submit+Query\""}' > post
+cat prev-data | head -n 13 > post-data
 cat post >> post-data
 cat prev-data | tail -1 >> post-data
 rm post
