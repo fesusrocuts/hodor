@@ -7,11 +7,7 @@
 #description: the technique is attack use the lib curl and wget from Linux Ubuntu
 #try hack poll #2 2/2
 echo "get key #step2"
-cat cookies.txt | grep HoldTheDoor | cut -f7 | awk '{print "--post-data \"id=790&key="$0"&holdthedoor=Submit+Query\""}' > post
-cat prev-data | head -n 7 > post-data
-cat post >> post-data
-cat prev-data | tail -1 >> post-data
-rm post
+cat prev-data >> post-data
 echo "push data for session #step3"
 cat post-data | tr "\n" " " | sh
 ls support/f2.level0.* | wc -l | awk '{if ($0>0) print "mv support/f2.level0.record support/f2.level0.record."$0}' | sh
