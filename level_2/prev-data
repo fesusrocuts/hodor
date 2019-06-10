@@ -1,6 +1,6 @@
 wget -v
 -O support/f2.level2.record
---user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+--user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
 --load-cookies cookies.txt
 --header="Cache-Control: no-cache"
 --header="Referer: http://158.69.76.135/level2.php"
