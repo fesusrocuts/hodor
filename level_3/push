@@ -8,11 +8,16 @@
 #try hack poll #2 2/2
 echo "get key #step2"
 captcha=$(cat out.txt | head -n 1)
-cat cookies.txt | grep HoldTheDoor | cut -f7 | awk '{print "--post-data \"id=790&key="$0"&captcha="'$captcha'"&holdthedoor=Submit+Query\""}' > post
-cat prev-data | head -n 13 > post-data
-cat post >> post-data
-cat prev-data | tail -1 >> post-data
-rm post
-echo "push data for session #step3"
-cat post-data | tr "\n" " " | sh
-ls support/f2.level3.* | wc -l | awk '{if ($0>0) print "mv support/f2.level3.record support/f2.level3.record."$0}' | sh
+lengthcaptcha=${#captcha}
+if [ $lengthcaptcha -eq 4 ]; then
+  cat cookies.txt | grep HoldTheDoor | cut -f7 | awk '{print "--post-data \"id=790&key="$0"&captcha='$captcha'&holdthedoor=Submit+Query\""}' > post
+  cat prev-data | head -n 13 > post-data
+  cat post >> post-data
+  cat prev-data | tail -1 >> post-data
+  rm post
+  echo "push data for session #step3"
+  cat post-data | tr "\n" " " | sh
+  ls support/f2.level3.* | wc -l | awk '{if ($0>0) print "mv support/f2.level3.record support/f2.level3.record."$0}' | sh
+else
+  echo "captcha error, try again with other image..."
+fi
