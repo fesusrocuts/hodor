@@ -1,0 +1,110 @@
+
+<h1>
+Hold the Door challenge - Tim Britton's special
+</h1>
+<small>Who is <a href="https://twitter.com/wintermanc3r" target="_blank">Tim</a>?
+Ask <a href="https://twitter.com/JennieZChu">Jennie</a> why he is unconsciently titling his head to his left in the following picture.</small><br />
+<br />
+
+<a href="https://twitter.com/holbertonschool/status/826234425469857792" target="_blank">
+<img border="0" src="hodor_level5.png" width="500" />
+</a>
+
+<p>
+Vote 1024 times for your Holberton School id (i.e. 70 if yoo are The One True <a href="https://twitter.com/philipYoo10">Philip</a>).<br />
+<i>We only take votes from Windows users.</i>
+</p>
+
+<h2>
+Who do you want to vote for?
+</h2>
+
+<form method="post">
+    id: <input type="text" name="id" /><br /><br />
+<input type="hidden" name="key" value="21f25251f42d4a5d8d762aae64d92a8063aa8703" />
+<img src="/tim.php" /><br />
+Are you a poorly trained OCR? <input name="captcha" type="text"><br /><br />
+<input type="submit" name="holdthedoor" />
+</form>
+
+<h2>
+Results
+</h2>
+
+    <table border="1">
+<tr>
+    <td>id</td><td># votes</td>
+</tr>
+<tr>
+    <td>
+1    </td>
+    <td>
+14392    </td>    
+</tr>
+<tr>
+    <td>
+100    </td>
+    <td>
+730    </td>    
+</tr>
+<tr>
+    <td>
+144    </td>
+    <td>
+5    </td>    
+</tr>
+<tr>
+    <td>
+250    </td>
+    <td>
+1024    </td>    
+</tr>
+<tr>
+    <td>
+496    </td>
+    <td>
+34580    </td>    
+</tr>
+<tr>
+    <td>
+541    </td>
+    <td>
+1096    </td>    
+</tr>
+<tr>
+    <td>
+650    </td>
+    <td>
+1720    </td>    
+</tr>
+<tr>
+    <td>
+654    </td>
+    <td>
+1    </td>    
+</tr>
+<tr>
+    <td>
+666    </td>
+    <td>
+666    </td>    
+</tr>
+<tr>
+    <td>
+775    </td>
+    <td>
+1    </td>    
+</tr>
+<tr>
+    <td>
+790    </td>
+    <td>
+11    </td>    
+</tr>
+<tr>
+    <td>
+6666    </td>
+    <td>
+39207    </td>    
+</tr>
+</table>

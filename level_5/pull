@@ -10,6 +10,10 @@ echo "get session #step1"
 cat get-session | tr "\n" " " | sh
 echo "download image #step2"
 cat get-image | tr "\n" " " | sh
+echo "convert to png to txt..."
+tesseract support/image.png out
+echo "the txt is..."
+cat out.txt
 ls support/image* | wc -l | awk '{if ($0>0) print "mv support/image.png support/image."$0".png"}' | sh
 ls support/f1.level5.* | wc -l | awk '{if ($0>0) print "mv support/f1.level5.record support/f1.level5.record."$0}' | sh
 

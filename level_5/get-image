@@ -1,8 +1,8 @@
 wget
--O support/image.png 
+-O support/image.png
 --user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
 --load-cookies cookies.txt
 --header="Referer: http://158.69.76.135/level5.php"
 --header="Connection: keep-alive" --header="Accept-Language: en-US,en;q=0.5"
 --header="Accept-Encoding: gzip, deflate"
-http://158.69.76.135/tim.php
+http://158.69.76.135/captcha.php
